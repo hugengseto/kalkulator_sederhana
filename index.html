@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div id="konten">
   <div class="container">
     <div class="title">
       <h1>Calculator</h1>
@@ -53,6 +54,22 @@
       </table>
     </div>
   </div>
+</div>
+
   <script src="script.js"></script>
+  <script src="three.r134.min.js"></script>
+  <script src="vanta.birds.min.js"></script>
+  <script>
+  VANTA.BIRDS({
+    el: "#konten",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    scale: 1.00,
+    scaleMobile: 1.00
+  })
+  </script>
 </body>
 </html>
